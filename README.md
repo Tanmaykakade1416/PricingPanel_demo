@@ -1,7 +1,7 @@
 # PricingPanel_demo
 
 
-This is a simple responsive pricing page built using *HTML* , *CSS* and *JS*.
+This is a simple responsive pricing page built using **HTML** and **CSS**.
 It showcases a typical SaaS pricing layout with three plans: **Personal**, **Small Team**, and **Enterprise**.
 
 ## 🚀 Features
