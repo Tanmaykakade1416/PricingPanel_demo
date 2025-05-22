@@ -8,7 +8,6 @@ It showcases a typical SaaS pricing layout with three plans: **Personal**, **Sma
 
 - Clean and modern layout
 - 3-column pricing cards
-- Call-to-action buttons
 - Visually appealing illustrations
 - Good use of spacing and colors
 - Media queries are used for responsiveness.
