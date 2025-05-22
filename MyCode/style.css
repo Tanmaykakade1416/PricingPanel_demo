@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #4A90E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pricing-container{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding:50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan{
+    box-sizing: border-box;
+    border-right: 2px solid gainsboro;
+    text-align: center;
+    flex:1;
+}
+.plan:nth-of-type(3){
+    border: none;
+}
+
+.plan h3{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.plan p{
+    color: #0977f5;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: normal;
+}
+
+.plan .price{
+    color: #0477fa;
+    font-size: 30px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.plan a{
+    border: 2px solid #0477fa;
+    color: #0477fa;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin-top: px;
+}
+
+.plan a:hover{
+    background-color: #0477fa;
+    color: white;
+}
+
+.plan img {
+    width: 300px; /* Adjust width */
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space below the image */
+}
+
+.highlight{
+    box-sizing: border-box;
+}
+.highlight .price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.highlight a{
+    color: white;
+    background-color: #0477fa;
+}
+.highlight a:hover{
+    color: #0477fa;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .pricing-container {
+        flex-direction: column; /* Stack plans vertically */
+        align-items: center;
+    }
+    
+    .plan {
+        width: 100%; /* Full width on smaller screens */
+        border-right: none; /* Remove side borders */
+        border-bottom: 2px solid gainsboro;
+    }
+    
+    .plan:nth-of-type(3) {
+        border-bottom: none;
+    }
+}
