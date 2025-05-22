@@ -24,7 +24,7 @@ It showcases a typical SaaS pricing layout with three plans: **Personal**, **Sma
 
 ## 🔗 Live Demo
 
-[View on GitHub Pages](https://yourusername.github.io/pricing-page-demo)  
+[View on GitHub Pages](https://github.com/Tanmaykakade1416/PricingPanel_demo)
 
 
 
